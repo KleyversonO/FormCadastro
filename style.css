@@ -115,3 +115,6 @@ body {
     height: 100vh;
     background-image: linear-gradient(to top right, #f7000c, #a70732); 
 }
+.is-invalid {
+    border-color: red;
+}

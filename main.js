@@ -8,17 +8,23 @@ form.addEventListener('submit', (event) => {
   const email = emailInput.value.trim();
   const password = passwordInput.value.trim();
 
-  if (!email || !password) {
-    alert('Por favor, preencha os campos de e-mail e senha.');
+  if (!email || !password || !cpf || !cep) {
+    alert('Por favor, preencha os campos de e-mail, senha e CPF.');
 
     if (!email) {
       emailInput.focus();
     } else {
       passwordInput.focus();
+    } if (!cpf) {
+      validarCPF.focus();
+    } else {
+      cepValido.focus()
     }
     return;
   }
 
+
+  
   console.log('Formulário enviado com email:', email, 'e senha:', password,);
 
   window.location.href = "logado.html";
