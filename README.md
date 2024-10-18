@@ -13,9 +13,9 @@ O projeto possui uma interface compreensiva e funcional. No projeto é possível
 
 ## Fontes
 Esse projeto foi feito com o auxilio de outros projetos trabalhos ao longo do ano, sendo eles: 
-https://github.com/KleyversonO/Tela-de-login
-https://github.com/KleyversonO/Form-CadEndereco
-https://github.com/KleyversonO/validacoes
+*https://github.com/KleyversonO/Tela-de-login
+*https://github.com/KleyversonO/Form-CadEndereco
+*https://github.com/KleyversonO/validacoes
 
 
 ## Tecnologias utilizadas 
